@@ -26,7 +26,8 @@ class WebServiceController extends Controller {
     * return string
     */
     public function actionHelloWorld() {
-        echo CJSON::encode("Hello World!");
+        echo CJSON::encode(array("result"=>"Hello World!"));
+        Yii::app()->end();
     }
 
     /**
@@ -37,7 +38,7 @@ class WebServiceController extends Controller {
     * @return float $result
     */
     public function actionCalculator($operation, $num1, $num2) {
-        $result = 0;
+        $result = "null";
         if($operation === "SUM") {
             $result = $num1 + $num2;
         } else if($operation === "MULT") {
@@ -49,7 +50,7 @@ class WebServiceController extends Controller {
                 $result = $num1 / $num2;
             }
         }
-
-        echo CJSON::encode($result);
+        echo CJSON::encode(array("result"=>$result));
+        Yii::app()->end();
     }
 }
