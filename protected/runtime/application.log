@@ -1,0 +1,670 @@
+2015/03/24 00:55:20 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Applications/MAMP/htdocs/yii-1.1.15/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('')
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wrest/webService
+---
+2015/03/24 00:55:36 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Applications/MAMP/htdocs/yii-1.1.15/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(ERestActionProvider), Array)
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('helloWorld')
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService/hell...')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wrest/webService/helloWorld
+---
+2015/03/24 00:56:26 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Applications/MAMP/htdocs/yii-1.1.15/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(ERestActionProvider), Array)
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('helloWorld')
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService/hell...')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wrest/webService/helloWorld
+HTTP_REFERER=http://localhost/wtester/
+---
+2015/03/24 01:00:17 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Applications/MAMP/htdocs/yii-1.1.15/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('')
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wrest/webService/
+HTTP_REFERER=http://localhost/wtester/
+---
+2015/03/24 01:01:26 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Applications/MAMP/htdocs/yii-1.1.15/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('')
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wrest/webService/
+HTTP_REFERER=http://localhost/wtester/
+---
+2015/03/24 01:02:11 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Applications/MAMP/htdocs/yii-1.1.15/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('')
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wrest/webService/
+HTTP_REFERER=http://localhost/wtester/
+---
+2015/03/24 01:02:32 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Applications/MAMP/htdocs/yii-1.1.15/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(ERestActionProvider), Array)
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('helloWorld')
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService/hell...')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wrest/webService/helloWorld
+HTTP_REFERER=http://localhost/wtester/
+---
+2015/03/24 01:03:49 [error] [exception.CException] exception 'CException' with message 'ERestActionProvider and its behaviors do not have a method or closure named "runWithParams".' in /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CComponent.php:266
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(308): CComponent->__call('runWithParams', Array)
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(308): ERestActionProvider->runWithParams(Array)
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(ERestActionProvider))
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(ERestActionProvider), Array)
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('helloWorld')
+#10 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService/hell...')
+#11 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/wrest/webService/helloWorld
+HTTP_REFERER=http://localhost/wtester/
+---
+2015/03/24 01:04:23 [error] [php] Use of undefined constant dasda - assumed 'dasda' (/Applications/MAMP/htdocs/wrest/protected/controllers/WebServiceController.php:44)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(133): WebServiceController->runAction()
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): WebServiceController->filterAccessControl()
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): WebServiceController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): WebServiceController->run()
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/wrest/index.php(13): CWebApplication->run()
+REQUEST_URI=/wrest/webService/
+in /Applications/MAMP/htdocs/wrest/protected/controllers/WebServiceController.php (44)
+in /Applications/MAMP/htdocs/wrest/index.php (13)
+2015/03/24 01:05:50 [error] [exception.CException] exception 'CException' with message 'ERestActionProvider and its behaviors do not have a method or closure named "runWithParams".' in /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CComponent.php:266
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(308): CComponent->__call('runWithParams', Array)
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(308): ERestActionProvider->runWithParams(Array)
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(ERestActionProvider))
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(ERestActionProvider), Array)
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('helloWorld')
+#10 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService/hell...')
+#11 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/wrest/webService/helloWorld
+HTTP_REFERER=http://localhost/wtester/
+---
+2015/03/24 01:07:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(270): CController->missingAction('')
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService')
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/wrest/webService/
+---
+2015/03/24 01:07:14 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in /Applications/MAMP/htdocs/wrest/protected/extensions/starship/RestfullYii/filters/ERestFilter.php:81
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('helloWorld')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService/hell...')
+#10 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/wrest/webService/helloWorld
+---
+2015/03/24 01:07:21 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in /Applications/MAMP/htdocs/wrest/protected/extensions/starship/RestfullYii/filters/ERestFilter.php:81
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('helloWorld')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService/hell...')
+#10 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/wrest/webService/helloWorld
+---
+2015/03/24 01:07:53 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in /Applications/MAMP/htdocs/wrest/protected/extensions/starship/RestfullYii/filters/ERestFilter.php:81
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('helloWorld')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService/hell...')
+#10 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/wrest/webService/helloWorld
+---
+2015/03/24 01:07:54 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in /Applications/MAMP/htdocs/wrest/protected/extensions/starship/RestfullYii/filters/ERestFilter.php:81
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('helloWorld')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService/hell...')
+#10 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/wrest/webService/helloWorld
+---
+2015/03/24 01:07:55 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in /Applications/MAMP/htdocs/wrest/protected/extensions/starship/RestfullYii/filters/ERestFilter.php:81
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('helloWorld')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService/hell...')
+#10 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/wrest/webService/helloWorld
+---
+2015/03/24 01:08:59 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in /Applications/MAMP/htdocs/wrest/protected/extensions/starship/RestfullYii/filters/ERestFilter.php:81
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('helloWorld')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService/hell...')
+#10 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/wrest/webService/helloWorld
+---
+2015/03/24 01:09:01 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in /Applications/MAMP/htdocs/wrest/protected/extensions/starship/RestfullYii/filters/ERestFilter.php:81
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('helloWorld')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService/hell...')
+#10 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/wrest/webService/helloWorld
+---
+2015/03/24 01:09:03 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in /Applications/MAMP/htdocs/wrest/protected/extensions/starship/RestfullYii/filters/ERestFilter.php:81
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('helloWorld')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService/hell...')
+#10 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/wrest/webService/helloWorld
+---
+2015/03/24 01:09:16 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in /Applications/MAMP/htdocs/wrest/protected/extensions/starship/RestfullYii/filters/ERestFilter.php:81
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('helloWorld')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService/hell...')
+#10 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/wrest/webService/helloWorld
+---
+2015/03/24 01:09:17 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in /Applications/MAMP/htdocs/wrest/protected/extensions/starship/RestfullYii/filters/ERestFilter.php:81
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('helloWorld')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService/hell...')
+#10 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/wrest/webService/helloWorld
+---
+2015/03/24 01:09:39 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php:336
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /Applications/MAMP/htdocs/wrest/protected/extensions/starship/RestfullYii/filters/ERestFilter.php(88): CFilterChain->run()
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#10 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('calculator')
+#12 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService/calc...')
+#13 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/wrest/webService/calculator
+---
+2015/03/24 01:10:45 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in /Applications/MAMP/htdocs/wrest/protected/extensions/starship/RestfullYii/filters/ERestFilter.php:81
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('helloWorld')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService/hell...')
+#10 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/wrest/webService/helloWorld
+---
+2015/03/24 01:11:03 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in /Applications/MAMP/htdocs/wrest/protected/extensions/starship/RestfullYii/filters/ERestFilter.php:81
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('helloWorld')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService/hell...')
+#10 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/wrest/webService/helloWorld
+---
+2015/03/24 01:22:09 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in /Applications/MAMP/htdocs/wrest/protected/extensions/starship/RestfullYii/filters/ERestFilter.php:81
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('helloWorld')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService/hell...')
+#10 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/wrest/webService/helloWorld
+---
+2015/03/24 01:33:21 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in /Applications/MAMP/htdocs/wrest/protected/extensions/starship/RestfullYii/filters/ERestFilter.php:81
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('helloWorld')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService/hell...')
+#10 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/wrest/webService/helloWorld
+---
+2015/03/24 01:34:23 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in /Applications/MAMP/htdocs/wrest/protected/extensions/starship/RestfullYii/filters/ERestFilter.php:81
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('helloWorld')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService/hell...')
+#10 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/wrest/webService/helloWorld
+---
+2015/03/24 01:34:50 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in /Applications/MAMP/htdocs/wrest/protected/extensions/starship/RestfullYii/filters/ERestFilter.php:81
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('helloWorld')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService/hell...')
+#10 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/wrest/webService/helloWorld
+---
+2015/03/24 01:35:03 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in /Applications/MAMP/htdocs/wrest/protected/extensions/starship/RestfullYii/filters/ERestFilter.php:81
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('calculator')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService/calc...')
+#10 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/wrest/webService/calculator
+---
+2015/03/24 01:35:48 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in /Applications/MAMP/htdocs/wrest/protected/extensions/starship/RestfullYii/filters/ERestFilter.php:81
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('calculator')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService/calc...')
+#10 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/wrest/webService/calculator?operation=SUM&num1=3&num2=3
+HTTP_REFERER=http://localhost/wtester/
+---
+2015/03/24 01:35:48 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in /Applications/MAMP/htdocs/wrest/protected/extensions/starship/RestfullYii/filters/ERestFilter.php:81
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('helloWorld')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService/hell...')
+#10 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/wrest/webService/helloWorld
+HTTP_REFERER=http://localhost/wtester/
+---
+2015/03/24 01:36:22 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in /Applications/MAMP/htdocs/wrest/protected/extensions/starship/RestfullYii/filters/ERestFilter.php:81
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('calculator')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService/calc...')
+#10 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/wrest/webService/calculator?operation=SUM&num1=3&num2=3
+HTTP_REFERER=http://localhost/wtester/
+---
+2015/03/24 01:36:22 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in /Applications/MAMP/htdocs/wrest/protected/extensions/starship/RestfullYii/filters/ERestFilter.php:81
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('helloWorld')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService/hell...')
+#10 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/wrest/webService/helloWorld
+HTTP_REFERER=http://localhost/wtester/
+---
+2015/03/24 01:36:59 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in /Applications/MAMP/htdocs/wrest/protected/extensions/starship/RestfullYii/filters/ERestFilter.php:81
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('helloWorld')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService/hell...')
+#10 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/wrest/webService/helloWorld
+HTTP_REFERER=http://localhost/wtester/
+---
+2015/03/24 01:36:59 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in /Applications/MAMP/htdocs/wrest/protected/extensions/starship/RestfullYii/filters/ERestFilter.php:81
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('calculator')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService/calc...')
+#10 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/wrest/webService/calculator?operation=SUM&num1=3&num2=3
+HTTP_REFERER=http://localhost/wtester/
+---
+2015/03/24 01:38:23 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in /Applications/MAMP/htdocs/wrest/protected/extensions/starship/RestfullYii/filters/ERestFilter.php:81
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('helloWorld')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService/hell...')
+#10 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/wrest/webService/helloWorld
+HTTP_REFERER=http://localhost/wtester/
+---
+2015/03/24 01:38:23 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in /Applications/MAMP/htdocs/wrest/protected/extensions/starship/RestfullYii/filters/ERestFilter.php:81
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('calculator')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService/calc...')
+#10 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/wrest/webService/calculator?operation=SUM&num1=3&num2=3
+HTTP_REFERER=http://localhost/wtester/
+---
+2015/03/24 01:38:24 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in /Applications/MAMP/htdocs/wrest/protected/extensions/starship/RestfullYii/filters/ERestFilter.php:81
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('helloWorld')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService/hell...')
+#10 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/wrest/webService/helloWorld
+HTTP_REFERER=http://localhost/wtester/
+---
+2015/03/24 01:38:24 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in /Applications/MAMP/htdocs/wrest/protected/extensions/starship/RestfullYii/filters/ERestFilter.php:81
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('calculator')
+#9 /Applications/MAMP/htdocs/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('webService/calc...')
+#10 /Applications/MAMP/htdocs/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/wrest/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/wrest/webService/calculator?operation=SUM&num1=3&num2=3
+HTTP_REFERER=http://localhost/wtester/
+---

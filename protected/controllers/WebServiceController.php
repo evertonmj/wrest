@@ -1,13 +1,13 @@
 <?php
 
-class WebServiceController extends controller {
+class WebServiceController extends Controller {
     public function filters()
     {
             return array(
                 'accessControl', // perform access control for CRUD operations
                 array(
                     'ext.starship.RestfullYii.filters.ERestFilter +
-                    REST.GET, REST.PUT, REST.POST, REST.DELETE, REST.HELLO, REST.CALCULATOR'
+                    REST.GET, REST.PUT, REST.POST, REST.DELETE, helloWorld, calculator'
                 ),
             );
     }
@@ -16,18 +16,8 @@ class WebServiceController extends controller {
     {
             return array(
                 'REST.'=>'ext.starship.RestfullYii.actions.ERestActionProvider',
-            );
-    }
-
-    public function accessRules()
-    {
-            return array(
-                array('allow', 'actions'=>array('REST.GET', 'REST.PUT', 'REST.POST', 'REST.DELETE', 'REST.HELLO', 'REST.CALCULATOR'),
-                'users'=>array('*'),
-                ),
-                array('deny',  // deny all users
-                    'users'=>array('*'),
-                ),
+                'helloWorld' => 'ext.starship.RestfullYii.actions.ERestActionProvider',
+                'calculator' => 'ext.starship.RestfullYii.actions.ERestActionProvider',
             );
     }
 
@@ -35,8 +25,8 @@ class WebServiceController extends controller {
     * Retorna um hello world!
     * return string
     */
-    public function helloWorld() {
-        return "Hello World!";
+    public function actionHelloWorld() {
+        echo CJSON::encode("Hello World!");
     }
 
     /**
@@ -46,7 +36,7 @@ class WebServiceController extends controller {
     * @param float $num2
     * @return float $result
     */
-    public function calculator($operation, $num1, $num2) {
+    public function actionCalculator($operation, $num1, $num2) {
         $result = 0;
         if($operation === "SUM") {
             $result = $num1 + $num2;
@@ -60,6 +50,6 @@ class WebServiceController extends controller {
             }
         }
 
-        return $result;
+        echo CJSON::encode($result);
     }
 }
