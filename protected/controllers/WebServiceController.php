@@ -1,7 +1,7 @@
 <?php
 
 class WebServiceController extends Controller {
-    public function filters()
+    /*public function filters()
     {
             return array(
                 'accessControl', // perform access control for CRUD operations
@@ -10,7 +10,7 @@ class WebServiceController extends Controller {
                     REST.GET, REST.PUT, REST.POST, REST.DELETE, helloWorld, calculator'
                 ),
             );
-    }
+    }*/
 
     public function actions()
     {
